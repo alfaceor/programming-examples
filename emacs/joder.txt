@@ -1,0 +1,15 @@
+asdfas
+
+
+asdfas
+
+FirstFile
+FirstFile~
+#joder.txt#
+joder.txt
+OrgMode
+todolist
+todolist~
+todolist.pdf
+todolist.tex
+

@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char** argv){
+  string flnIniFile="HistogramEvolutionXYS1S2__N_64__U0_0.2.ini";
+  cout<< flnIniFile <<endl;
+
+  ifstream ifileIniFile(flnIniFile.c_str());
+  ifileIniFile.close()
+
+}

@@ -1,0 +1,8 @@
+#!/bin/bash
+#mkdir -p tmp
+#echo "joder" > textfile.txt
+#docker run -it -v "$(pwd)":/igor-data debian bash
+docker build . -t digor:lasted
+
+docker tag local-image:tagname new-repo:tagname
+docker push new-repo:tagname

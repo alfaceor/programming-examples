@@ -1,0 +1,20 @@
+programs=randomCongruential randomGSL exponentialDistribution BitNumber02
+all:$(programs)
+LIBS=-lgsl -lgslcblas -lm
+
+BitNumber02:BitNumber02.cpp
+	$(CXX) -o BitNumber02 BitNumber02.cpp $(LIBS)
+
+randomCongruential:randomCongruential.cpp
+	$(CXX) -o randomCongruential randomCongruential.cpp $(LIBS)
+
+randomGSL:randomGSL.cpp
+	$(CXX) -o randomGSL randomGSL.cpp $(LIBS)
+
+exponentialDistribution:exponentialDistribution.cpp
+	$(CXX) -o exponentialDistribution exponentialDistribution.cpp $(LIBS)
+
+
+clean:
+	rm -f $(programs)
+

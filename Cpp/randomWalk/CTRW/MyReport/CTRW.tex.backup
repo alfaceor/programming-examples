@@ -1,0 +1,37 @@
+\documentclass[a4paper,twocolumn,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+%opening
+\title{Continuous Time Random Walk}
+\author{Carlos Olivares}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We want to investigate how the CTRW works as a model for relaxation in non-linear systems.
+\end{abstract}
+
+\section{Introduction}
+Transport is an ubuquitous non-equilibrium phenomena that occurs in different scenarios. Diffusion is one type of transport that is signalized by a mean square displacement
+%
+\begin{equation}
+ \langle \Delta r^2 \rangle \sim t^{\alpha}
+\end{equation}
+%
+where, $\alpha = 1$ for normal diffusion, $\alpha < 1$ for subdiffusive and $1 < \alpha <2 $ for a superdiffusive and ballistic for $\alpha = 2$.
+%
+Therefore a general description to get the different types of diffusion is by using a Continuous time random walk.
+
+
+\begin{itemize}
+ \item What is the generating equation for a CTRW.
+ \item 
+\end{itemize}
+
+
+\section{Methods}
+In order to make simulations
+
+\end{document}

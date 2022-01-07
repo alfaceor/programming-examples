@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#1. create the figure
+gnuplot jojo.gp
+
+#2. compile pdflatex
+pdflatex r2
+
+#3. see document
+okular r2.pdf

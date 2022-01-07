@@ -1,0 +1,3 @@
+#!/usr/bin/sqlite3
+.open  test.db
+SELECT * from Cars

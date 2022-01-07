@@ -1,0 +1,4 @@
+noinst_LIBRARIES = libmyadd.a
+libmyadd_a_SOURCES  = myadd.cpp
+
+

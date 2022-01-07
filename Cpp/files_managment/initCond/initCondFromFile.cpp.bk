@@ -1,0 +1,49 @@
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <stdlib.h>
+#include <sys/stat.h>
+
+
+using namespace std;
+
+
+bool initCondFromFile(string filename){
+  struct stat buffer;   
+  // Check if file exist
+  if (stat (filename.c_str(), &buffer) != 0){  
+//    cout<<filename+" doesn't Exist!"<<endl;
+    return false;
+  }else{
+    ifstream iniCondFile;
+    iniCondFile.open(filename.c_str()); //"xxxxxx.ini"
+    string line;
+    getline(iniCondFile,line);
+//    cout<<line<<endl;
+    stringstream linestream(line);
+    string key; 
+    getline(linestream,key,' ');
+    double time=atof(key.c_str());
+    int i=0; 
+    while( getline(linestream,key,' ') ){
+      this->p[i] = atof(key.c_str());
+      getline(linestream,key,' ');
+      this->q[i] = atof(key.c_str());
+      i++; 
+    }    
+
+    if(i>this->N or i<this->N){
+      cout<<"Caralho! Deu merda! o numero de particulas nao coincide! FDP"<<endl;
+    }    
+
+    iniCondFile.close();
+    return true;
+  }
+
+}
+
+
+int main(int argc, char** argv){
+  cout << "Hello i am reading a file!" <<endl;
+}

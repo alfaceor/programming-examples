@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+handlers = [ (dict1, do_stuff_dict1), (dict2, do_stuff_dict2), (dict3, do_stuff_dict3) ]
+for whichDict, whichFunc in handlers:
+    try:
+        val = whichDict[key]
+    except KeyError:
+        continue
+    else:
+        whichFunc()
+        break
+else:
+    do_stuff_not_found()
+

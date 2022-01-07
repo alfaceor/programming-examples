@@ -1,0 +1,33 @@
+* TODO Get new laptop :buy:work:laptop
+  DEADLINE:
+** buy milk too!
+[[www.google.com][Google]]
+
+[[file:~/Dropbox/somedata.txt]]
+
+** Tables
+| Some | Data |
+|------+------|
+|    2 | fasd |
+|    1 | ok   |
+
+** Latex
+\begin{equation}
+ \mathcal{H} =  T+ U
+\end{equation}
+
+
+** Todo stuff!
+
+*** TODO explain todo list S-M-ENTER
+
+*** TODO test C-c C-t
+
+*** DONE jodjo
+
+
+*** TODO Add a deadline with C-c C-d
+    DEADLINE: <2017-06-01 Qui>
+
+*** TODO Another task with a deadline
+    DEADLINE: <2017-06-16 Sex>

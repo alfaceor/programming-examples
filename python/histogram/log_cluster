@@ -1,0 +1,12 @@
+2015/09/17 16:56:30 [20728] receiving file list
+2015/09/17 16:56:32 [20731] .d..t...... alphaXY_TwoHB/Case001/
+2015/09/17 16:56:32 [20731] >f+++++++++ alphaXY_TwoHB/Case001/particleVelTime__T1_0.45__T2_0.35__A_0.00__i_00025__tn_00021.PDF
+2015/09/17 16:56:32 [20731] >f+++++++++ alphaXY_TwoHB/Case001/particleVelTime__i_00025__tn_00021__01.PDF
+2015/09/17 16:56:32 [20731] >f+++++++++ alphaXY_TwoHB/Case001/particleVelTime__i_00025__tn_00021__02.PDF
+2015/09/17 16:56:32 [20731] >f+++++++++ alphaXY_TwoHB/Case001/particle_ek_Time__T1_0.45__T2_0.35__A_0.00__i_00025__tn_00021.PDF
+2015/09/17 16:56:32 [20731] >f+++++++++ alphaXY_TwoHB/Case001/particle_ek_Time__i_00025__tn_00021__01.PDF
+2015/09/17 16:56:32 [20731] >f+++++++++ alphaXY_TwoHB/Case001/particle_ek_Time__i_00025__tn_00021__02.PDF
+2015/09/17 16:56:32 [20731] >f+++++++++ alphaXY_TwoHB/Case001/slopeTrial_alpha__T1_0.45__T2_0.35.DAT
+2015/09/17 16:56:38 [20731] >f+++++++++ alphaXY_TwoHB/Case001/tripipi.DAT
+2015/09/17 16:56:38 [20731] sent 479 bytes  received 13044328 bytes  1534683.18 bytes/sec
+2015/09/17 16:56:38 [20731] total size is 45139846  speedup is 3.46

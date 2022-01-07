@@ -1,0 +1,23 @@
+all:integers initArray globalArray Const DoWhileExample
+
+LIBS= -lgsl -lgslcblas -lm -lboost_program_options
+DoWhileExample:DoWhileExample.cpp
+	$(CXX) -o DoWhileExample DoWhileExample.cpp $(LIBS)
+
+integers:integers.cpp
+	$(CXX) -o integers integers.cpp
+
+initArray:initArray.cpp
+	$(CXX) -o initArray initArray.cpp
+
+globalArray:globalArray.cpp
+	$(CXX) -o globalArray globalArray.cpp -lm
+
+Const:Const.cpp
+	$(CXX) -o Const Const.cpp -lm
+
+#for.cpp
+#if.cpp
+#integers.cpp
+#Macros.cpp
+#net.cpp

@@ -1,0 +1,6 @@
+ 2034  vim Dockerfile
+ 2037  docker images
+ 2043  docker build -t example_image .
+ 2044  docker images
+ 2047  docker run -it --name example_app example_image
+

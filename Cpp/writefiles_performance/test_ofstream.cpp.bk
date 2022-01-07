@@ -1,0 +1,91 @@
+/ OFSTREAM IS SLOW!!
+
+#include <fstream>
+using namespace std;
+
+#include <stdio.h>
+
+LARGE_INTEGER   ticksPerSecond;
+LARGE_INTEGER   time1;
+LARGE_INTEGER   time2;
+
+float floatDiffTime;
+const int runs = 100000;
+
+int main()
+{
+    ////////////////
+    // Get the speed of the CPU
+    QueryPerformanceFrequency( &ticksPerSecond );
+    printf( "Your computer does %lld ticks per second\n", ticksPerSecond.QuadPart );
+    // %lld means type "long long" int, which is the
+    // 64 bit int which is what we want here.
+
+    // define some random valued variables to use
+    // in the print statements
+    int a    = 5;
+    double b = 9.2919e92;
+    char c   = 'x';
+    char * d = "blah blah blah";
+
+
+    // test start:  open a file to write to
+    FILE * outfile = fopen( "testfile.txt", "w" );
+
+    /////////////////////
+    // START timing
+    QueryPerformanceCounter( &time1 );
+
+    // test fprintf(), run 100000 times!
+    for(int i = 0; i < runs; i++)
+    {
+        fprintf(outfile, "blah %i %f %c %s\n", a, b, c, d );
+        fflush( outfile );  // flush to be fair
+    }
+
+    ////////////////////
+    // STOP timing
+    QueryPerformanceCounter( &time2 );
+
+    // get the difference between time1 and time2,
+    // and that is how long the for loop took to run.
+    floatDiffTime = ((float)time2.QuadPart - time1.QuadPart)/ticksPerSecond.QuadPart;
+    printf( "fprintf took %f seconds\n", floatDiffTime );
+
+    fclose( outfile );  // close up, so we
+    // can proceed to start over with
+    // ofstream test.
+
+
+    ////////////////
+    // testing ofstream()
+    ofstream out( "oftestout.txt" );
+
+    ////////////////////
+    // START timing
+    QueryPerformanceCounter( &time1 );
+    //
+    ////////////////////
+
+    // test ofstream, run 100000 times!
+    for(int i = 0; i < runs; i++)
+    {
+        out << "blah " << a << " " << b << " " << c << " " << d << endl;
+        out.flush();  // flush to be fair
+    }
+
+    ////////////////////
+    // STOP timing
+    QueryPerformanceCounter( &time2 );
+    //
+    ////////////////////
+
+    // get the difference between time1 and time2,
+    // and that is how long the for loop took to run.
+    floatDiffTime = ((float)time2.QuadPart - time1.QuadPart)/ticksPerSecond.QuadPart;
+    printf( "ofstream took %f seconds\n", floatDiffTime );
+
+    out.close();
+
+    return 0;
+}

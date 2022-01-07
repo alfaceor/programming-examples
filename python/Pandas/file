@@ -1,0 +1,5 @@
+               Edges  priority  nEdges
+event                                 
+del_3_j   [j_choice]         5       1
+j_choice  [v_choice]         7       1
+v_choice          []         7       0

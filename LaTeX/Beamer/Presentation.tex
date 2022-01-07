@@ -1,0 +1,129 @@
+\documentclass[8pt]{beamer}
+\usetheme{Boadilla}
+
+\usepackage[utf8]{inputenc}
+\usepackage{default}
+\usepackage{grffile}
+
+\usepackage[backend=biber,style=phys]{biblatex}  % Physical Review style
+\addbibresource{ceor_phd_Refs.bib}  % Add the reference
+\setbeamertemplate{bibliography item}{\insertbiblabel} % Show numbers in the bibliography
+\AtEveryCitekey{\clearfield{title}}  % Remove title from every cite
+% \AtEveryBibitem{\clearfield{title}} % Remove title from every bibitem
+
+% % TODO: PDFLATEX, BIBER, PDFLATEX
+% % TODO: CONSIDER THE USE OF \jobname
+
+
+%opening
+\title{Efeitos do alcance das interações no transporte de calor}
+\author{Carlos Olivares\\
+Orientadora: Celia Anteneodo
+}
+% \date{2 September, 2015}
+
+\begin{document}
+\maketitle
+
+\begin{frame}
+  \frametitle{Sumário}
+  \small
+  \tableofcontents %[currentsection,hideothersubsections]
+  \normalsize
+\end{frame}
+
+\section{Motivação}
+
+\begin{frame}{ Motivação }
+
+Este es un fullcite~\cite{Antoni1995}\fullcite{Antoni1995}
+
+
+\begin{itemize}
+ \item A cite~\cite{Antoni1995}
+ \item A fullcite~\fullcite{Antoni1995}
+\end{itemize}
+
+
+\end{frame}
+%
+%
+%
+
+
+\begin{frame}{  }
+
+
+
+Este es un cite~\cite{DasDhar2014arXiv}
+% \parentcite{fermi1956thermodynamics}
+
+\end{frame}
+%
+%
+%
+
+
+\begin{frame}{  }
+a
+% \parentcite{fermi1956thermodynamics}
+% asdfa \footfullcite{RoyDhar2008}
+\end{frame}
+%
+%
+%
+
+\begin{frame}{  }
+asdfa \footfullcite{RoyDhar2008}
+\end{frame}
+%
+%
+%
+
+
+
+\begin{frame}{  }
+
+The fullcite is \fullcite{RoyDhar2008} \\
+
+cite~\cite{DasDhar2014arXiv}
+
+\cite{Dhar2001PRL}
+
+\end{frame}
+%
+%
+%
+
+
+
+\begin{frame}{  }
+\printbibliography[heading=subbibliography]
+
+\end{frame}
+%
+%
+%
+
+
+\section{Transporte térmico}
+\section{Modelos na literatura} \label{sec:ModelsHT}
+\section{Sistemas de longo alcance} \label{sec:IntroLongRange}
+\subsection{Hamiltoniano de campo médio (HMF)}
+\subsection{Equação de Vlasov}
+\subsection{Modelo de rotores com alcance variável} \label{ch:alphaXY}
+\section{Resultados dentro do formalismo LEGF}
+\subsection{Modelo}
+\subsection{Fluxo de calor}
+\subsection{Fluxo no sistema de campo médio}
+\section{Comentários finais}
+\section{Modelo e métodos}
+\section{Resultados}
+\subsection{Perfis de temperatura}
+\subsection{Fluxo de calor}
+\subsection{Condutividade térmica}
+\subsection{Diagrama de comportamentos da condutividade versus alfa e T}
+\section{Comentários finais}
+
+
+\end{document}

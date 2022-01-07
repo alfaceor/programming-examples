@@ -1,0 +1,3 @@
+/home/alfaceor/Dropbox/programming-examples/Cpp/VTK/ReadTextFile/build/CMakeFiles/rebuild_cache.dir
+/home/alfaceor/Dropbox/programming-examples/Cpp/VTK/ReadTextFile/build/CMakeFiles/ReadTextFile.dir
+/home/alfaceor/Dropbox/programming-examples/Cpp/VTK/ReadTextFile/build/CMakeFiles/edit_cache.dir

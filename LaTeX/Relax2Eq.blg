@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Relax2Eq.aux
+The style file: apsrev4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: Relax2EqNotes.bib
+Database file #2: Relax2EqRef.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+Warning--missing journal in ReviewBonettoLebowitzReyBellet2000
+Warning--missing journal in DasDhar2015
+You've used 31 entries,
+            5847 wiz_defined-function locations,
+            1865 strings with 21944 characters,
+and the built_in function-call counts, 28009 in all, are:
+= -- 1887
+> -- 649
+< -- 177
++ -- 212
+- -- 146
+* -- 4213
+:= -- 2854
+add.period$ -- 31
+call.type$ -- 31
+change.case$ -- 125
+chr.to.int$ -- 31
+cite$ -- 33
+duplicate$ -- 2608
+empty$ -- 2125
+format.name$ -- 390
+if$ -- 5549
+int.to.chr$ -- 1
+int.to.str$ -- 39
+missing$ -- 329
+newline$ -- 145
+num.names$ -- 90
+pop$ -- 1106
+preamble$ -- 1
+purify$ -- 154
+quote$ -- 0
+skip$ -- 1058
+stack$ -- 0
+substring$ -- 767
+swap$ -- 2387
+text.length$ -- 73
+text.prefix$ -- 0
+top$ -- 8
+type$ -- 410
+warning$ -- 2
+while$ -- 85
+width$ -- 0
+write$ -- 293
+(There were 2 warnings)

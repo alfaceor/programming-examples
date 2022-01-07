@@ -1,0 +1,12 @@
+This is my first emacs edited file.
+to do it I just run in a terminal
+
+emacs -nw FirstFile
+
+Now what?
+to save a file C-x C-s
+
+My questions are, how can I do the all the stuffs that I use in vim.
+And the main reason to use emacs is the org mode.
+
+dfasdfa

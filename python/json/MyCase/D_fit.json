@@ -1,0 +1,9 @@
+{
+  "0.000001":{ "fitrange": [   500000,  100000000], "lambFlag":false, "lamb1": 1 , "lamb2": 0.9, "lamb3": 0.8 },
+  "0.00001" :{ "fitrange": [   500000,  100000000], "lambFlag":false, "lamb1": 1 , "lamb2": 0.9, "lamb3": 0.8 },
+  "0.0001"  :{ "fitrange": [  1000000,  100000000], "lambFlag":false, "lamb1": 1 , "lamb2": 0.9, "lamb3": 0.8 },
+  "0.001"   :{ "fitrange": [  1000000,  100000000], "lambFlag":false, "lamb1": 1 , "lamb2": 0.9, "lamb3": 0.8 },
+  "0.01"    :{ "fitrange": [   100000,  100000000], "lambFlag":false, "lamb1": 1 , "lamb2": 0.9, "lamb3": 0.8 },
+  "0.1"     :{ "fitrange": [   100000,  100000000], "lambFlag":false, "lamb1": 1 , "lamb2": 0.9, "lamb3": 0.8 },
+  "1.0"     :{ "fitrange": [   100000,  100000000], "lambFlag":false, "lamb1": 1 , "lamb2": 0.9, "lamb3": 0.8 }
+}
